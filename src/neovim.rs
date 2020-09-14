@@ -112,7 +112,7 @@ impl UiAttachOptions {
     }
 
     pub fn set_multigrid_external(&mut self, multigrid_external: bool) -> &mut Self {
-        self.set_option(UiOption::ExtMultigrid(multigrid_external: bool));
+        self.set_option(UiOption::ExtMultigrid(multigrid_external));
         self
     }
 
